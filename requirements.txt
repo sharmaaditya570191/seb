@@ -17,9 +17,9 @@ incremental==17.5.0
 msgpack==0.5.6
 pypiwin32==223
 pytz==2018.4
-pywin32==223
 six==1.11.0
 Twisted==17.9.0
 txaio==2.10.0
 zope.interface==4.4.3
 brotipy
+WhiteNoise
