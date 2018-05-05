@@ -22,3 +22,4 @@ txaio==2.10.0
 zope.interface==4.4.3
 brotlipy
 WhiteNoise
+gunicorn
