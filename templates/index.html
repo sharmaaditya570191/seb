@@ -6,13 +6,37 @@
 {% block content %}
 
 <!-- added this to load all logged in users -->
-{% load logged_in_user_list %}
-{% render_logged_in_user_list %}
+<!-- {% load logged_in_user_list %}
+{% render_logged_in_user_list %} -->
 
     <!-- added this in initial tests to generate a random room
     <div class="availability" data-availability-id="{{ room }}">
             <input type="submit" value="Available">
     </div> -->
+
+    <p>
+        The button you see below is a room with a randomly generated name. Click to enter it.
+    </p>
+
+    <p>
+        If you enter as a guest, the program will look for all available staff, randomly pick one, and open the room in his/her browser.
+    </p>
+
+    <p>
+        If you are staff, you need to open the first room you see to indicate to the program that you are ready.
+    </p>
+
+    <p>
+        The program limits staff to 3 chats each.
+    </p>
+
+    <p>
+        Clicking on the button with the name of your chat window once opens it. Clicking it a second time closes it, and also deletes the room from the database.
+    </p>
+
+    <p>
+        This is a very new program. There are still a lot of bugs.
+    </p>
 
     <br/>
 
